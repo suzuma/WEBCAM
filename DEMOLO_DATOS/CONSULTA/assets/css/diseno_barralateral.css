@@ -1,0 +1,90 @@
+﻿body {
+    background:#F1F3FA;
+}
+.perfil{
+    margin:20px 0;
+}
+.perfil-barra{
+    padding:20px 0 10px 0;
+    background:#FFF;
+}
+.perfil-detalle {
+    padding:20px;
+    background:#FFF;
+    min-height:460px;
+}
+.perfil-imagenUsuario img {
+    float:none;
+    margin:0 auto;
+    width:50%;
+    height:50%;
+    -webkit-border-radius:50% !important;
+    -moz-border-radius:50% !important;
+    border-radius:50% !important;
+}
+.perfil-tituloUsuario {
+    text-align:center;
+    margin-top:20px;
+}
+.perfil-tituloUsuarioNombre {
+    color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.perfil-tituloUsuarioPuesto {
+    text-transform: uppercase;
+    color:#5b9bd1;
+    font-size:12px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.perfil-usuarioBotones {
+    text-align:center;
+    margin-top:10px;
+}
+.perfil-usuarioBotones .btn {
+    text-transform:uppercase;
+    font-size:11px;
+    font-weight:600;
+    padding: 6px 15px;
+    margin-right:5px;        
+}
+.perfil-usuarioMenu {
+    margin-top:15px;
+}
+.perfil-usuarioMenu ul li {
+    border-bottom:1px solid #f0f4f7;        
+}
+.perfil-usuarioMenu ul li:last-child {
+  border-bottom: none;
+}
+.perfil-usuarioMenu ul li a{
+    color:#93a3b5;
+    font-size:14px;
+    font-weight:400;
+}
+    
+.perfil-usuarioMenu ul li a i {
+    margin-right:10px;
+    font-size:14px;        
+}
+.perfil-usuarioMenu ul li a:hover {
+    background-color:#f1fcfd;
+    color:#fb9db1;
+}
+    .perfil-usuarioMenu ul li.active {
+        border-bottom:none;
+    }
+        .perfil-usuarioMenu ul li.active a {
+            background-color:#f1fcfd;
+            color:#fb9db1;
+            border-left:2px solid #fb9db1;
+            margin-left:-2px;
+        }
+
+
+
+
+

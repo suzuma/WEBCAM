@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "CATALOGO DE REGISTROS";
+    List<DEMELO_DATOS.Modelo.Empleado> datos = ViewBag.Datos;
+}
+
+<div class="container">
+    @foreach(DEMELO_DATOS.Modelo.Empleado item in datos){ 
+    <div class="col-xs-4">
+        <div class="row">
+            <img src="@Url.Action("GenerarImagen","Home", new { Id = item.EmpleadoId })" alt=""/>
+        </div>
+    </div>
+    }
+</div>
+

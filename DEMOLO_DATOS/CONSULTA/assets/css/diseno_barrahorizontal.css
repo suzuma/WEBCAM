@@ -1,0 +1,45 @@
+﻿body {
+    padding-top:25px !important;
+}
+.stats {
+    text-align:center;
+    text-shadow:1px 1px 0px #fff;
+    margin-top:25px;
+}
+.stats li{
+    width:125px;
+}
+    .stats span {
+        font-family:Helvetica;
+        font-weight:bold;
+        text-shadow:1px 1px 0px #fff;
+        font-size:4em;
+    }
+/* pantallas grandes */
+@media(min-width:1200px) {
+}
+/* tables o escritorios pequeños */
+@media(min-width:768px) and (max-width:979px) {
+}
+/* celular y tablet*/
+@media(max-width:768px) {
+    .perfil img {
+        width:75px;
+    }
+    .perfil h2 {
+        font-size:1.7em;
+    }
+    .perfil span {
+        font-size:2em;
+    }
+}
+/* celulares de baja resolucion */
+@media(max-width:480px) {    
+}
+
+
+
+
+
+
+
