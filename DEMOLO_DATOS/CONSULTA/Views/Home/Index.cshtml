@@ -8,7 +8,8 @@
     @foreach(DEMELO_DATOS.Modelo.Empleado item in datos){ 
     <div class="col-xs-4">
         <div class="row">
-            <img src="@Url.Action("GenerarImagen","Home", new { Id = item.EmpleadoId })" alt=""/>
+            <img class="card-img-top img-cand img-fluid img-thumbnail" 
+                 src="data:image/png;base64,@item.sImagen" alt="@item.sNombre">
         </div>
     </div>
     }
